@@ -1,5 +1,5 @@
 class Array {
-  public static void main(String[] args){
+  public static void main(String[] args) {
     int[] score = new int[3];
     score[0] =80;
     score[1] =100;
