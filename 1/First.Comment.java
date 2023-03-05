@@ -4,6 +4,6 @@
 
 class FirstComment {
   public static void main(String[] args) {
-    system.out.println("javaを楽しもう！"); //画面表示
+    System.out.println("javaを楽しもう！"); //画面表示
   }
 }
