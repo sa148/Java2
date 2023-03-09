@@ -3,7 +3,7 @@ class Student4 {
   int couter;
   
   Student4(String n){
-    name = n
+    name = n;
     couter++;
     System.out.println(nmae + "さんをインスタンス化しました");
   }
