@@ -5,8 +5,7 @@ class DriveCar3{
     c1.display();
 
     Car3 c2 = new Car2(2525);
-    c2.speed = 50;
-    //c2.run(50);
+    c2.run(50);
     c2.display();
   }
 }
