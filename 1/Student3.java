@@ -1,23 +1,18 @@
-class Student3{
-  String name;
-  int engScore;
-  int mathScore;
+public class Student3 extends Person3{
+  private int stuNo;
 
-  Student3(String n){
-    name = n;
+  public Student3(String name){
+    this(name, 999);
   }
-  Student3(String n, int e, int m){
-    name = n;
-    engScore = e;
-    engScore = m;
+
+  public Student3(String name, int stuNo){
+    super(name);
+    this.stuNo = stuNo;
   }
-  void setScore(int e, int m){
-    engScore = e;
-    mathScore = m;
-  }
-  void display(){
-    System.out.println(name + "さん");
-    System.out.println("英語" + engScore + "点・数学" + mathScore + "点");
+
+  public void display(){
+    super.display();
+    System.out.println("学籍番号" + stuNo);
   }
 }
 
