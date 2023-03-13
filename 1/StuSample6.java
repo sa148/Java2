@@ -1,11 +1,14 @@
 public class StuSample6{
   public static void main(String[] args){
-    Student6 stu = new Student6();
+    TandF taf = new Tandf("陸上競技部");
+    Football fb = new Football("サッカー部");
 
-    stu.setStuNo("菅原");
-    stu.display();
+    Student6 stu1 = new Student6("菅原", taf);
+    stu1.display();
+    stu1.practice();
 
-    stu.setStuNo(1);
-    stu.displayStuNo();
+    Student6 stu2 = new Student6("桜井", fb);
+    stu2.display();
+    stu2.practice();
   }
 }
