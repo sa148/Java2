@@ -1,3 +1,5 @@
+package mypack;
+
 public class Bus extends Vehicle implements Stopable{
   public Bus(int crewNum){
     this.crewNum = crewNum;
