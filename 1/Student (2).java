@@ -1,4 +1,4 @@
-class StudentA {
+class Studenta {
   //メンバ変数
   String name;
   int engscore;
