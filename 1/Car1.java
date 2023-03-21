@@ -1,11 +1,26 @@
-public class Car1{
-  private int no;
+class Car1 {
 
-  public void setNo(int n){
+  int no;
+  int speed;
+  
+  void setNo(int n) {
     no = n;
   }
 
-  public void display(){
-    System.out.println("ナンバー" + no + "です");
+  void run(int s) {
+    speed = s;
+  }
+
+  void brake() {
+    speed = 0;
+  }
+
+  void brake(int s) {
+    speed = s;
+    speed =(speed - s);
+  }
+
+  void display() {
+    System.out.println("ナンバー" + no + "の速度は" + speed + "です");
   }
 }
